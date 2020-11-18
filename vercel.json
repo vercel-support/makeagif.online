@@ -1,0 +1,21 @@
+{
+    "headers": [
+        {
+            "source": "/(.*)",
+            "headers": [
+                {
+                    "key": "x-content-type-options",
+                    "value": "nosniff"
+                },
+                {
+                    "key": "cross-origin-embedder-policy",
+                    "value": "require-corp"
+                },
+                {
+                    "key": "cross-origin-opener-policy",
+                    "value": "same-origin"
+                }
+            ]
+        }
+    ]
+}
